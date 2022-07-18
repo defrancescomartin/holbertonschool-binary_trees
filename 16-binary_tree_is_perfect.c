@@ -2,10 +2,9 @@
 #include "11-binary_tree_size.c"
 
 /**
- * binary_tree_is_perfect - Check if a binary tree is perfect.
- * @tree:   Pointer 2 the root node of the tree 2 check.
- * Return: 1 ->  binary tree is perfect
- * 0 -> If tree is NULL
+ * binary_tree_is_perfect - checks if a binary tree is perfect
+ * @tree: pointer to the root node of the tree to check
+ * Return: 1 if perfect 0 otherwise
  */
 
 int binary_tree_is_perfect(const binary_tree_t *tree)
